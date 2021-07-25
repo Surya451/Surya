@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-12T05:29:49Z" name="Default suite" finished-at="2021-04-12T05:30:00Z" duration-ms="10669">
+    <groups>
+    </groups>
+    <test started-at="2021-04-12T05:29:49Z" name="Default test" finished-at="2021-04-12T05:30:00Z" duration-ms="10669">
+      <class name="com.surya.automation.advance.TestNG_Demo">
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:com.surya.automation.advance.TestNG_Demo@1672fe87]" started-at="2021-04-12T10:59:47Z" name="openbrowser" finished-at="2021-04-12T10:59:49Z" duration-ms="2256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method signature="gmailTC()[pri:0, instance:com.surya.automation.advance.TestNG_Demo@1672fe87]" started-at="2021-04-12T10:59:49Z" name="gmailTC" finished-at="2021-04-12T11:00:00Z" duration-ms="10650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmailTC -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.surya.automation.advance.TestNG_Demo@1672fe87]" started-at="2021-04-12T11:00:00Z" name="closeBrowser" finished-at="2021-04-12T11:00:00Z" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.surya.automation.advance.TestNG_Demo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
