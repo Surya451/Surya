@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="com.surya.automation.fp.businessscripts.Gmail_Test">
+        <methods>
+          <include name="gmail_Test"/>
+          <include name="generateReports"/>
+          <include name="openBrowser"/>
+          <include name="beforeTCExecution"/>
+          <include name="closeBrowser"/>
+          <include name="initReports"/>
+          <include name="afterTCExecution"/>
+        </methods>
+      </class> <!-- com.surya.automation.fp.businessscripts.Gmail_Test -->
+      <class name="com.surya.automation.fp.businessscripts.FP_Test">
+        <methods>
+          <include name="beforeTCExecution"/>
+          <include name="afterTCExecution"/>
+        </methods>
+      </class> <!-- com.surya.automation.fp.businessscripts.FP_Test -->
+      <class name="com.surya.automation.fp.businessscripts.Inst_Test">
+        <methods>
+          <include name="beforeTCExecution"/>
+          <include name="afterTCExecution"/>
+        </methods>
+      </class> <!-- com.surya.automation.fp.businessscripts.Inst_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
